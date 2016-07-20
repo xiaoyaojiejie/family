@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>a</title>
+</head>
+<body>
+	<a href="javascript:void(0);" id="a">
+		welcome!
+	</a>
+	<script type="text/javascript">
+		var a = document.getElementById("a");
+		a.onclick = function() {
+			location.href = "homepage/homepage.html";
+		}
+		window.onload = function() {
+			a.click();
+		}
+	</script>
+</body>
+</html>
